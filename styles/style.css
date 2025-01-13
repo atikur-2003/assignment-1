@@ -113,3 +113,64 @@ banner{
     font-size: 15px;
     line-height: 20px;
 }
+
+/* vision section style */
+.vision-section{
+    margin: 50px 0;
+}
+.vision-section-header{}
+.vision-section-header h1{
+    font-size: 35px;
+    font-weight: 700;
+    margin: 25px 0;
+}
+.vision-section-header p{
+    font-size: 16px;
+    row-gap: 14px; 
+    color: rgba(14, 14, 14, .7);
+
+}
+.vision-section-items{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 30px 0;
+}
+.vision-section-card{
+    padding: 20px 25px;
+    width: 400px;
+    height: 300px;
+    border: 1px solid rgba(14, 14, 14, .1);
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.vision-section-items .card-1{
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.vision-section-items .card-2{
+    background-color: rgb(198, 228, 214);
+}
+.vision-section-items .card-3{
+    background-color: rgb(247, 235, 207);
+}
+.vision-section-card img{
+    margin-bottom: 12px 0;
+    width: 50px;
+    height: 50px;
+}
+.vision-section-card h4{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 18px;
+    margin: 15px 0;
+    font-weight: 700;
+    line-height: 24px;
+}
+.vision-section-card p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 12px 0;
+}
