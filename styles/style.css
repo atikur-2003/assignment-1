@@ -365,3 +365,53 @@ banner{
 .donate-section-input-submit .btn{
     padding: 13px 17px;
 }
+/* neswletter section style */
+.neswletter{
+    margin: 50px 0;
+    padding: 60px 80px;
+    text-align: center;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+}
+.newsletter-section-heading{
+    width: 600px;
+    margin: auto;
+}
+.newsletter-section-heading h1{
+    color: rgb(14, 14, 14);
+    font-size: 30px;
+    font-weight: 800;
+    margin: 20px 0;
+}
+.newsletter-section-heading p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+.newsletter-section-input{
+    margin-top: 15px;
+}
+.newsletter-section-input input[type=email]{
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    width: 600px;
+    padding: 15px 25px;
+    background: rgb(255, 255, 255);
+    margin-right: -4px;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 15px;
+}
+.newsletter-section-input input[type=submit]{
+    padding: 14px 20px;    
+    margin-top: 7px;
+    border-radius: 0px 5px 5px 0px;
+
+}
+.newsletter-section-input .newsletter-bottom{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 25px;
+}
