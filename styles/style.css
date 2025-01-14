@@ -261,6 +261,7 @@ banner{
     box-sizing: border-box;
     border-radius: 24px;
     background: #ffffff;
+    margin-bottom: 30px;
 }
 .recentNews-img img{
     width: 350px;
