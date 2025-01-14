@@ -195,3 +195,42 @@ banner{
 .vision-section-card .btn-3{
     background-color: rgb(255, 194, 57);
 }
+/* quote section */
+.quote-section{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 25px;
+    background: rgb(255, 255, 255);
+    position: relative;
+}
+.quote-section .qoute-img{
+    color: rgba(14, 14, 14, 0.3);
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 27px;
+    top: 26px;
+}
+
+.quote-section .quote{
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 15px;
+    margin: 15px 0;
+    font-weight: 400;
+    line-height: 24px;
+    }
+.quote-section .title{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+.quote-section .subtitle{
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
