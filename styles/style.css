@@ -138,12 +138,13 @@ banner{
     margin: 30px 0;
 }
 .vision-section-card{
-    padding: 20px 25px;
-    width: 400px;
-    height: 300px;
+    padding: 25px;
+    width: 450px;
+    height: 320px;
     border: 1px solid rgba(14, 14, 14, .1);
     border-radius: 15px;
     box-sizing: border-box;
+    position: relative;
 }
 
 .vision-section-items .card-1{
@@ -172,5 +173,25 @@ banner{
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    margin: 12px 0;
+    margin: 15px 0;
+}
+.vision-section-btn{
+    border-radius: 8px;
+    padding: 12px 20px;
+    border: none;
+    position: absolute;
+    left: 25px;
+    bottom: 17px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+}
+.vision-section-card .btn-1{
+    background-color: rgb(84, 144, 245);
+}
+.vision-section-card .btn-2{
+    background-color: rgb(9, 161, 92) !important;
+}
+.vision-section-card .btn-3{
+    background-color: rgb(255, 194, 57);
 }
